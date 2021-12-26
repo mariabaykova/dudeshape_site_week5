@@ -1,0 +1,897 @@
+body {
+    /* background-color: #186451; */
+}
+
+div {
+    /* border: 2px solid #222222; */
+}
+
+.top_background {
+    background-color: #F9F6F5;
+
+}
+
+#top_pos {
+    position: absolute;
+    width: 1440px;
+    height: 747px;
+    left: 0px;
+    top: 0px;
+}
+
+#slider_rectangle {
+    position: absolute;
+    width: 145px;
+    height: 138px;
+    /* left: 643px; */
+    /* top: 609px; */
+    background-color: #F9F6F5;
+    left: 0px;
+    bottom: 0px;
+    /* border: 2px solid #222222; */
+}
+
+#arrow_left {
+    position: absolute;
+    left: 38.17px;
+    right: -22.92%;
+    top: 57.33px;
+    bottom: 50%;
+    /* background-image: url(/assets/icons/arrow_left.svg); */
+    /* border: 2px solid #222222; */
+    /* transform: rotate(90deg); */
+}
+
+#arrow_right {
+    position: absolute;
+    left: 94.17px;
+    right: 6.25%;
+    top: 57.33px;
+    bottom: -8.33%;
+    /* border: 2px solid #222222; */
+    /* transform: rotate(-90deg); */
+}
+
+
+.big_title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+
+    color: #000000;
+}
+
+/* Get Your Best Cosmetic Products Here */
+#big_title_pos1 {
+    position: absolute;
+    width: 621px;
+    height: 140px;
+    left: 100px;
+    top: 178px;
+}
+
+
+
+/* стиль для текстовых блоков */
+.simple_text {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    color: #555555;
+}
+
+/* расположение текстовых блоков */
+#simple_text_pos1 {
+    position: absolute;
+    width: 516px;
+    height: 96px;
+    left: 100px;
+    top: 348px;
+}
+
+#header_form_search_pos {
+    position: absolute;
+    width: 326px;
+    height: 48px;
+    left: 100px;
+    top: 474px;
+}
+
+.search_form {
+    margin: 0 auto;
+}
+
+.input_search {
+
+    width: 326px;
+    height: 48px;
+    padding-left: 10px;
+    /* border: 2px solid #7BA7AB; */
+    border: 0px;
+    outline: none;
+    /* background: #F9F0DA; */
+    color: #9E9C9C;
+
+}
+
+.button_search {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: black;
+    /* border-radius: 0 5px 5px 0; */
+    cursor: pointer;
+}
+
+#header_button_pos {
+    position: absolute;
+    width: 148px;
+    height: 56px;
+    left: 100px;
+    top: 582px;
+}
+
+
+/* Dudeshape */
+.dudeshape_top {
+    position: absolute;
+    width: 128px;
+    height: 30px;
+    left: 100px;
+    top: 40px;
+
+    font-family: Red Hat Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    text-decoration-line: underline;
+
+    color: #222222;
+}
+
+/* Применение псевдокласса */
+a.dudeshape_top:hover {
+    color: chocolate;
+}
+
+.font_menu {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    color: #222222;
+    text-decoration: none;
+}
+
+#home_top_position {
+    /* Home */
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    left: 532px;
+    top: 45px;
+    /* color: #222222; */
+}
+
+#products_top {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 616px;
+    top: 45px;
+    /* color: #222222; */
+}
+
+#about_us_top {
+    position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 721px;
+    top: 45px;
+    /* color: #222222; */
+}
+
+#contact_us_top {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 828px;
+    top: 45px;
+    /* color: #222222; */
+}
+
+#profile_top {
+    position: absolute;
+    left: 84.72%;
+    right: 13.61%;
+    top: 43px;
+    bottom: 98.55%;
+}
+
+#buy_top {
+    position: absolute;
+    left: 88.06%;
+    right: 10.28%;
+    top: 43px;
+    bottom: 98.55%;
+}
+
+#frame_top {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 91.45%;
+    top: 43px;
+}
+
+.button_black {
+    border: none;
+    background: #402F2C;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    /* Поля вокруг текста */
+    position: absolute;
+    width: 137px;
+    height: 56px;
+    /* top: 0px; */
+    /* left: 0px; */
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.button_black_header {
+    width: 148px;
+}
+
+.button_white {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* padding: 16px 28px; */
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 162px;
+    height: 56px;
+    right: 0px;
+    top: 0px;
+
+    /* border: 1px solid rgba(104, 90, 82, 0.46); */
+    box-sizing: border-box;
+
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    color: #402F2C;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+
+button.button_white:hover {
+    background-color: transparent;
+}
+
+button.button_black:hover {
+    background-color: grey;
+}
+
+#big_picture {
+    background-image: url(/assets/images/big_pic1.png);
+    position: absolute;
+    width: 796px;
+    height: 609px;
+    left: 644px;
+    top: 138px;
+    /* animation: ch_bckgrnd 5s infinite ease-in-out; */
+    /* animation-name: ch_bckgrnd; */
+    /* animation-duration: 21s; */
+    /* animation-fill-mode: forwards; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: steps(1, end); */
+
+}
+
+
+@keyframes ch_bckgrnd {
+    0% {
+        background-color: #555555;
+    }
+
+    33% {
+        background-color: aqua;
+    }
+
+    66% {
+        background-color: brown;
+    }
+
+    100% {
+        background-color: chartreuse;
+    }
+}
+
+/*  */
+
+#logo_panel_pos {
+    position: absolute;
+    width: 1172px;
+    height: 113px;
+    left: 134px;
+    top: 877px;
+    /* border: 2px solid #222222; */
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#airbnb_logo {
+    /* position: absolute; */
+    width: 90px;
+    height: 27.99px;
+    /* left: 0px; */
+    /* top: 0px; */
+    /* border: 2px solid #222222; */
+
+}
+
+#hubspot_logo {
+    /* position: absolute; */
+    width: 84px;
+    height: 24px;
+}
+
+#google_logo {
+    width: 84px;
+    height: 27.99px;
+}
+
+#microsoft_logo {
+    width: 122px;
+    height: 25.99px;
+}
+
+#walmart_logo {
+    width: 111px;
+    height: 25.99px;
+}
+
+#fedex_logo {
+    width: 80px;
+    height: 24px;
+}
+
+/* Ограничивающий контейнер для our popular products */
+#second_block_pos {
+    position: absolute;
+    width: 1240px;
+    height: 1037px;
+    left: 100px;
+    top: 1120px;
+    /* border: 2px solid #222222; */
+}
+
+
+/* Our Porular Products */
+#big_title_pos2 {
+
+    position: absolute;
+    /* width: 513px; */
+    width: 560px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+}
+
+#simple_text_pos2 {
+    position: absolute;
+    width: 714px;
+    height: 75px;
+    left: 0px;
+    top: 90px;
+}
+
+.discover_font {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    text-decoration-line: underline;
+
+    color: #222222;
+}
+
+#discover_pos {
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    right: 0px;
+    top: 90px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cosmetic_product1_pos {
+    position: absolute;
+    width: 600px;
+    height: 812px;
+    left: 0px;
+    top: 225px;
+    /* border: 2px solid #222222; */
+}
+
+.cosmetic_product_img_pos {
+    position: absolute;
+    width: 600px;
+    height: 484px;
+    left: 0px;
+    top: 0px;
+}
+
+.cosmetic_product_title_pos {
+    position: absolute;
+    width: 347px;
+    height: 60px;
+    left: 32px;
+    top: 508.24px;
+    /* border: 2px solid #222222; */
+}
+
+.cosmetic_product_title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height, or 150% */
+    color: #222222;
+}
+
+.cosmetic_product_text_pos {
+    position: absolute;
+    width: 516px;
+    height: 96px;
+    left: 32px;
+    top: 584.24px;
+}
+
+
+.bttns_pos {
+    position: absolute;
+    width: 323px;
+    height: 56px;
+    left: 32px;
+    top: 728px;
+}
+
+.price_pos {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    right: 40px;
+    bottom: 44px;
+}
+
+.price_font {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    /* identical to box height, or 107% */
+
+    text-align: right;
+
+    color: #222222;
+}
+
+#cosmetic_product2_pos {
+    position: absolute;
+    width: 600px;
+    height: 812px;
+    right: 0px;
+    top: 225px;
+    /* border: 2px solid #222222; */
+}
+
+/* блок с цифрами про продажи и пр. */
+
+#about_sales_pos {
+    position: absolute;
+    width: 1440px;
+    height: 250px;
+    left: 0px;
+    top: 2287px;
+
+    /* border: 2px solid #222222; */
+}
+
+.about_sales {
+    background-color: #FDF8F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding-left: 11%; */
+    /* padding-right: 11%; */
+}
+
+.about_sales_block {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10%;
+}
+
+.about_sales_big_item {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 70px;
+    /* identical to box height, or 125% */
+
+    border-bottom: 3px solid black;
+    color: #222222;
+}
+
+.about_sales_small_item {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    margin-top: 15%;
+    color: #555555;
+}
+
+/* блок perfect beauty of you */
+
+#pb_of_u_pos {
+    position: absolute;
+    width: 1240px;
+    height: 600px;
+    left: 100px;
+    top: 2667px;
+    /* border: 1px solid #222222; */
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.pb_of_u_left_column {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pb_of_u_title {
+    width: 520px;
+    height: 140px;
+}
+
+
+
+#pb_of_u_img_pos {
+    position: absolute;
+    /* width: 600px; */
+    width: 50%;
+    /* height: 600px; */
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-image: url(/assets/images/cosmetic_peach_color.png); */
+}
+
+#before_footer_pos {
+    position: absolute;
+    width: 1240px;
+    height: 554px;
+    top: 3397px;
+    left: 63px;
+
+    /* border: 1px solid #222222; */
+
+    display: flex;
+
+}
+
+/* портрет женщины */
+
+#portrait_of_woman_pos {
+    /* position: absolute; */
+    width: 583px;
+    height: 554px;
+    /* left: 63px; */
+    /* top: 0p  x; */
+}
+
+/* то, что справа от портрета женщины  */
+
+
+
+#title_right_portrait_pos {
+    /* position: absolute; */
+    width: 257px;
+    height: 40px;
+    /* left: 700px; */
+    /* top: 3427px; */
+    /* border: 1px solid #222222; */
+
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.title_right_portrait_font {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #222222;
+}
+
+.stars {
+    width: 168px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.portret_right_text_pos {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.portrait_right_block2 {
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.designer_name {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* margin-left: 30px; */
+    /* identical to box height, or 133% */
+    padding-bottom: 10px;
+
+    color: #222222;
+}
+
+.bckgrnd1 {
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/icons/circle_trans.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bckgrnd2 {
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/icons/circle_green.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two_arrows_in_circles {
+    width: 80px;
+    height: 32px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 545px;
+    left: 0px;
+    top: 4081px;
+    /* border: 2px solid #222222; */
+    background: #FAFAFA;
+}
+
+#first_floor_footer_pos {
+    position: absolute;
+    width: 1240px;
+    height: 218px;
+    left: 100px;
+    top: 0px;
+    border-bottom: 1px solid #DDDDDD;
+    /* border: 2px solid #222222; */
+}
+
+.footer_big_title_font {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #222222;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 2 этаж подвала */
+
+#first_block_2nd_floor_footer_pos {
+    position: absolute;
+    width: 326px;
+    height: 205px;
+    left: 205px;
+
+    top: 277px;
+}
+
+#second_block_2nd_floor_footer_pos {
+    position: absolute;
+    width: 96px;
+    height: 163px;
+    left: 743px;
+    top: 302px;
+}
+
+.second_floor_footer_title {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    /* identical to box height, or 120% */
+
+
+    color: #222222;
+}
+
+.second_floor_footer_link {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+
+    color: #222222;
+}
+
+.second_floor_footer_icons {
+    width: 87px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_floor_footer_icon {
+    width: 12.84px;
+    height: 12.84px;
+}
+
+#third_block_2nd_floor_footer_pos {
+    position: absolute;
+    width: 183px;
+    height: 155.84px;
+    left: 1052px;
+    top: 302px;
+
+}
+
+.second_floor_footer_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo_footer_pos {
+    position: absolute;
+    width: 213px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo_footer_font {
+    font-family: Red Hat Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+
+    text-decoration-line: underline;
+
+    color: #222222;
+}
+
+a.logo_footer_font:hover {
+    color: chocolate;
+}
+
+#text_footer_pos {
+    position: absolute;
+    width: 326px;
+    height: 128px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.text_footer_font {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+
+    color: #555555;
+}
